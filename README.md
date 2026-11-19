@@ -14,3 +14,14 @@ Coursework experiments for AI and Machine Learning using PyTorch – CIFAR-10 an
   - Loss and Accuracy evaluation & visualization
   - Classification report and confusion matrix
 - **Trained Model**: `Exercise 01 - MLP/models/mlp_cifar10.pth`
+
+### Exercise 02 - CNN
+- **Task**: Classification on the CIFAR-10 dataset using a Convolutional Neural Network (CNN).
+- **Notebook**: `Exercise 02 - CNN/Exercise_02_CNN.ipynb`
+  - Load CIFAR-10 dataset with PyTorch transforms
+  - Dataset split into training, validation, and testing sets
+  - CNN architecture: 2 Convolutional blocks (Conv2d, ReLU, MaxPool2d) followed by Fully Connected layers
+  - Training loop with Adam optimizer and CrossEntropyLoss
+  - Training vs. Validation Accuracy and Loss visualization
+  - Model evaluation on test data, classification report, and confusion matrix
+- **Trained Model**: `Exercise 02 - CNN/models/cnn_cifar10.pth`
