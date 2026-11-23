@@ -16,3 +16,6 @@ env/
 *.tar.gz
 *.zip
 *.tar
+
+# Duplicate extracted folder
+AI-ML-Assignment-main/

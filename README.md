@@ -25,3 +25,11 @@ Coursework experiments for AI and Machine Learning using PyTorch – CIFAR-10 an
   - Training vs. Validation Accuracy and Loss visualization
   - Model evaluation on test data, classification report, and confusion matrix
 - **Trained Model**: `Exercise 02 - CNN/models/cnn_cifar10.pth`
+
+### Exercise 03 - Regularisation
+- **Task**: Regularisation techniques on CIFAR-10 classification using Convolutional Neural Networks (CNN).
+- **Notebook**: `Exercise 03 - Regularisation/Exercise_03_Regularisation.ipynb`
+  - Implementation of Dropout CNN (Dropout layers in convolutional and fully connected layers)
+  - Data Augmentation techniques (RandomHorizontalFlip, RandomCrop, RandomRotation, ColorJitter)
+  - Training and validation evaluation for both regularised models
+  - Comparison and analysis of Baseline CNN vs. Dropout CNN vs. Data Augmentation CNN
