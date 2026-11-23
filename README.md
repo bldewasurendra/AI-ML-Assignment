@@ -33,3 +33,11 @@ Coursework experiments for AI and Machine Learning using PyTorch – CIFAR-10 an
   - Data Augmentation techniques (RandomHorizontalFlip, RandomCrop, RandomRotation, ColorJitter)
   - Training and validation evaluation for both regularised models
   - Comparison and analysis of Baseline CNN vs. Dropout CNN vs. Data Augmentation CNN
+
+### Exercise 04 - Width and Depth
+- **Task**: Exploring the impact of network width and depth on CIFAR-10 classification performance using CNNs.
+- **Notebook**: `Exercise 04 - Width and Depth/Exercise_04_Width_Depth.ipynb`
+  - **Width Exploration**: Evaluating narrow, standard, and wide CNN architectures (scaling channel dimensions).
+  - **Depth Exploration**: Evaluating shallow (2-block), medium (3-block), and deep (4-block) CNN architectures.
+  - Parameter count comparison vs. validation accuracy for all configurations.
+  - Comprehensive comparison plots and summary of width vs. depth trade-offs.
